@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGVON</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="animated-text">KINGVON</h1>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <p>Welcome to KINGVON, your go-to place for VPN services, bot deployment, heist strategies, and Heroku billing solutions.</p>
+        </section>
+        
+        <section class="pricing">
+            <h2>Pricing</h2>
+            <ul>
+                <li>Bot Deployment: $0.80</li>
+                <li>Heroku Billing: $1.00</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 0720326316</p>
+        </section>
+    </main>
+
+    <footer>
+        <audio id="background-music" controls autoplay loop>
+            <source src="music/sample.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="toggle-music">Pause</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
